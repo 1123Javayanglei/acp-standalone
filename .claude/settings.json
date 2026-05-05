@@ -1,0 +1,13 @@
+  {                                                                                                                                                                                                            
+    "permissions": {                                                                                                                                                                                           
+      "allow": [                                                                                                                                                                                               
+        "Bash(cat *)",                                                                                                                                                                                         
+        "Bash(ls *)",                                                                                                                                                                                          
+        "Bash(find *)",                                                                                                                                                                                        
+        "Bash(git status *)",                                                                                                                                                                                  
+        "Bash(git log *)",                                                                                                                                                                                     
+        "Bash(git diff *)",                                                                                                                                                                                    
+        "Read(*)"                                                                                                                                                                                              
+      ]                                                                                                                                                                                                        
+    }                                                                                                                                                                                                          
+  } 

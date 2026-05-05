@@ -1,0 +1,20 @@
+{
+  "name": "acp-standalone",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "check": "tsc --noEmit",
+    "serve": "node --import tsx src/openai-compat/server.ts"
+  },
+  "dependencies": {
+    "@agentclientprotocol/sdk": "0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.8.0"
+  }
+}
